@@ -1,7 +1,7 @@
 //CHAT
 (function() {
 
-	$('#livechat header').on('click', function() {
+	$('#livechat header h4').on('click', function() {
 
 		$('.chat').slideToggle(300, 'swing');
 
@@ -12,7 +12,6 @@
 		e.preventDefault();
 		$('#livechat').animate({width: 'toggle'});
 		document.getElementById("myModal").style.display = "block";
-
 		setTimeout(function(){ 
 			document.getElementById("anim2").style.display = "block";
 		}, 2000);
