@@ -1,0 +1,211 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #FFFFFF;
+}
+
+.pre-header{
+  padding: 10px 20px 30px 20px;
+}
+
+.pre-header > img {
+  height: 50px;
+}
+
+.nav-bar{
+  background: #0091ff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.log > img {
+  height: 35px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.home {
+  margin-left: 100px;
+}
+
+.home > .btnhome {
+  padding: 13px 20px 13px 20px;
+  margin: 0 auto;
+  background: #0091ff;
+  color: #FFFFFF;
+  border: none;
+  align-items: center;  
+}
+
+.home :hover {
+  background-color: #FFFFFF;
+  color: #0091ff;
+}
+
+.icon{
+  margin-left: auto;
+}
+.icon > a > img{
+  width: 15px;
+  padding: 0 5px 0 5px;
+}
+
+.news{
+  margin: 10px 0 20px 0;
+  padding: 20px 20px 20px 20px
+}
+
+.news > ul > li {
+  float: left;
+  list-style-type: none;
+}
+
+.news > ul > li :hover {
+  background: #eeeeee;
+}
+
+.news > ul > li > a{
+  background: #FFFFFF;
+  border-left: 5px solid #0091ff;
+  border-right: 5px solid transparent;
+  border-radius: 1px;
+  text-decoration-line: none;
+  color: #0091ff;
+  padding: 10px 15px 10px 15px;
+}
+
+.graficosx{
+  float:left;
+  margin: 15px;
+  margin-left:70px
+}
+
+.graficosx > label {
+  background: #eeeee1;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  font-weight: 700;
+}
+
+.graficodx{
+  float: left;
+  margin: 15px;
+  margin-left: 50px;
+}
+
+.graficodx > label {
+  background: #eeeee1;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  font-weight: 700;
+}
+
+
+/* .header {
+  width: 20%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #0091ff;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+}*/
+
+form, .content {
+  color: #FFFFFF;
+  width: 15%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: #0091ff;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.titolo{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.input-group-btn {
+  padding-left: 70px;
+}
+
+.passw > u {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+  padding-left: 40px;
+}
+
+
+.btn {
+  padding: 5px;
+  width: 60%;
+  font-size: 15px;
+  color: #0091ff;
+  text-align: center;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+
+.intro > p{
+  text-align: center;
+  font-size: 22px;
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background: #0091ff;
+  position: relative;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  text-shadow: none;
+  font-size: 13px;
+  text-align: center;
+}
+
+.privacy {
+  color: #FFFFFF;
+}
